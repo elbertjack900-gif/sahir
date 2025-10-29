@@ -524,7 +524,7 @@
                     audio.onended = () => {
                         setTimeout(() => {
                             window.location.href = 'details.html';
-                        }, 1000);
+                        }, 500);
                     };
                     
                     // Fallback redirect if audio doesn't have ended event
@@ -537,7 +537,7 @@
                         window.location.href = 'details.html';
                     }, 1000);
                 });
-            }, 2000);
+            }, 1000);
         }, 1000);
 
         // Done button handler
@@ -548,6 +548,7 @@
 </body>
 
 </html>
+
 
 
 
